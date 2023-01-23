@@ -71,3 +71,4 @@ $people = [
 //deconde to JSON
 $jsonobj = '{"first_name":"Ryan","last_name":"Azur","email":"razur@gmail.com"}';
 var_dump(json_decode($jsonobj));
+
