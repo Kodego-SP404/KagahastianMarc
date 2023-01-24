@@ -13,9 +13,9 @@ $target_dir = "uploads/$file_name";
 //get file extension
 $file_ext = explode('.', $file_name);
 $file_ext = strtolower(end($file_ext));
-//echo $file_ext;
+echo $file_ext;
 
-// print_r($FILES);
+ //print_r($FILES);
 
 //Validate file extension
 if(in_array($file_ext, $allowed_ext)){
