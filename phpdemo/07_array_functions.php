@@ -70,5 +70,6 @@ $lessThan5 = array_filter($numbers, fn($number) => $number <= 5);
 print_r($lessThan5);
 
 //Array reduce
+//carry hold the return value of the previoes iteration
 $sum = array_reduce($numbers, fn($carry, $number) => $carry + $number);
 print_r($sum);

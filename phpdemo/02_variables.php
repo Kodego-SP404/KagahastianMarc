@@ -66,5 +66,4 @@ echo 500 / 25;
 echo "<br>";
 define('HOST', 'localhost');
 define('DB_NAME', 'dev_db');
-
 var_dump(HOST);
