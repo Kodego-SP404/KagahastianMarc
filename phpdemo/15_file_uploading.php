@@ -13,7 +13,7 @@ $target_dir = "uploads/$file_name";
 //get file extension
 $file_ext = explode('.', $file_name);
 $file_ext = strtolower(end($file_ext));
-echo $file_ext;
+//echo $file_ext;
 
  //print_r($FILES);
 

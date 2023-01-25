@@ -13,6 +13,7 @@ function inverse($x) {
       return 1/$x;
 }
 // echo inverse(0);
+
 //Handle the exception
 try{
 echo inverse(5);
